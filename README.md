@@ -38,16 +38,16 @@ A sneak peek into the application's interface and features.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project up and running on your local machine.
+You can run this project in two ways: using Docker (recommended for a production-like environment) or locally for development.
 
-### Prerequisites
+### Option 1: Running with Docker (Production)
 
+This is the recommended way to run the application as it mirrors a production setup.
+
+**Prerequisites:**
 -   [Docker](https://www.docker.com/get-started) and Docker Compose
 
-### Running the Application
-
-This project is configured to run inside a Docker container using Nginx.
-
+**Steps:**
 1.  **Build and run the Docker container:**
     ```bash
     docker-compose up -d --build
@@ -55,6 +55,31 @@ This project is configured to run inside a Docker container using Nginx.
 
 2.  **Open the application:**
     The application will be available at `http://localhost:7772`.
+
+### Option 2: Running Locally (Development)
+
+This method is ideal for developers who want to modify the source code.
+
+**Prerequisites:**
+-   [Node.js](https://nodejs.org/) (v16 or later)
+-   [npm](https://www.npmjs.com/) (usually comes with Node.js)
+
+**Steps:**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/okassama/okblooddiary-docker.git
+    cd okblooddiary-docker
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  **Open the application:**
+    The application will be available at `http://localhost:5173` (or the next available port).
 
 ## 📖 Usage
 
