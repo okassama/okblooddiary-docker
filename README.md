@@ -38,7 +38,7 @@ A sneak peek into the application's interface and features.
 
 ## 🚀 Getting Started
 
-You can run this project in two ways: using Docker (recommended for a production-like environment) or locally for development.
+You can run this project in multiple ways:
 
 ### Option 1: Running with Docker (Production)
 
@@ -80,6 +80,19 @@ This method is ideal for developers who want to modify the source code.
     ```
 4.  **Open the application:**
     The application will be available at `http://localhost:5173` (or the next available port).
+
+### Option 3: Deploying with Portainer
+
+You can easily deploy this application as a stack in Portainer.
+
+**Steps:**
+1.  In your Portainer instance, go to **Stacks**.
+2.  Click **Add stack**.
+3.  Give the stack a name (e.g., `okblooddiary`).
+4.  Under **Build method**, select **Git Repository**.
+5.  **Repository URL:** `https://github.com/okassama/okblooddiary-docker.git`
+6.  **Compose path:** `docker-compose.yml`
+7.  Click **Deploy the stack**. Portainer will pull the repository and run the `docker-compose.yml` file.
 
 ## 📖 Usage
 
