@@ -1,0 +1,5 @@
+{
+  "name": "OK Blood Diary",
+  "description": "A modern web application to track, visualize, and get insights on your blood pressure readings. Record daily measurements, view trends, and export your health data for your doctor.",
+  "requestFramePermissions": []
+}
