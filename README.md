@@ -34,11 +34,11 @@ Follow these instructions to get the project up and running on your local machin
 
 ### Running the Application
 
-This project is configured to run inside a Docker container using Nginx. There are no API keys to configure to get started.
+This project is configured to run inside a Docker container using Nginx.
 
 1.  **Build and run the Docker container:**
     ```bash
-    docker-compose up -d
+    docker-compose up -d --build
     ```
 
 2.  **Open the application:**
@@ -66,7 +66,9 @@ This project is configured to run inside a Docker container using Nginx. There a
 │   ├── utils/             # Utility functions
 │   ├── App.tsx            # Main application component
 │   └── index.tsx          # Entry point for React
-├── docker-compose.yml     # Docker configuration
+├── Dockerfile             # Dockerfile for building and running the app
+├── docker-compose.yml     # Docker Compose configuration
+├── nginx.conf             # Nginx configuration
 ├── index.html             # Main HTML file
 └── README.md              # You are here!
 ```
