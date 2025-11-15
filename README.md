@@ -14,6 +14,18 @@ A modern, private, and secure web application to track, visualize, and get insig
 -   **Data Management:** Securely delete individual readings or wipe an entire profile's data when needed.
 -   **Light & Dark Mode:** A comfortable viewing experience in any lighting condition.
 
+## 🖼️ Screenshots
+
+A sneak peek into the application's interface and features.
+
+| Profile Setup | Add New Reading |
+| :---: | :---: |
+| ![Profile Setup](screenshots/profile%20setup.png) | ![Add New Reading](screenshots/adding%20entry.png) |
+
+| Chart & AI Insights | API Key Setup |
+| :---: | :---: |
+| ![Chart & AI Insights](screenshots/line%20chart%20and%20insights.png) | ![API Key Setup](screenshots/api%20.png) |
+
 ## 🛠️ Tech Stack
 
 -   **Frontend:** React, TypeScript
